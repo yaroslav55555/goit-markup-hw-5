@@ -72,7 +72,7 @@ display: flex;
 }
 
 .logo {
-font-family: "Roboto", sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -116,7 +116,8 @@ gap: 40px;
 }
 
   /* .menu-nav-index */
-   .menu-nav-index{
+  .menu-nav-index{
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -149,30 +150,6 @@ gap: 40px;
   .menu-nav-index:focus{
     color: #404bbf;
   }
- /* .menu-nav-index */
-
- .contacts {
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-font-style: normal;
-margin-left: auto;
-}
-
-.social-links {
-  display: flex;
-  gap: 40px;
-  margin: 0;
-}
-
-.social-links :hover {
-  color: #404bbf;
-}
-.social-links :focus {
-  color: #404bbf;
-}
  /* .menu-nav-index */
 
  .contacts {
@@ -537,6 +514,7 @@ padding: 100px 0;
 }
 
 .logo-p {
+font-family: "Raleway", sans-serif; 
 margin-right: 120px;
 }
 
@@ -597,7 +575,6 @@ max-width: 264px;
   color: #f4f4fd;
   display: inline-block; 
 }
-
 
 /* =====footer-forma===== */
 
