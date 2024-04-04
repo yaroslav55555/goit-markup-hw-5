@@ -723,15 +723,13 @@ max-width: 264px;
   fill: #ffffff;
 }
 
-
-
 .modal-paragraf {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
   text-align: center;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
   margin-bottom: 16px;
 }
 
