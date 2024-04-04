@@ -647,7 +647,7 @@ max-width: 264px;
   fill: #fff;
 }
 
-/* =====modal-window-container===== */
+/* ===== Modal window ===== */
 
 .modal-window-container {
   position: fixed;
@@ -658,18 +658,6 @@ max-width: 264px;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none; */
-}
-
-.is-open {
-  opacity: 0;
-  visibility: visible;
-  pointer-events: auto;
 }
 
 .modal-window {
@@ -733,13 +721,12 @@ max-width: 264px;
   margin-bottom: 16px;
 }
 
-/* =====FORMA===== */
-
-.data-client {
+/* ===== Modal window form ===== */
+.input-field-section {
   margin-bottom: 8px;
 }
 
-.name-forma {
+.field-label {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -750,11 +737,11 @@ max-width: 264px;
   display: block;
 }
 
-.icon-input {
+.field-input {
   position: relative;
 }
 
-.input-forma {
+.input-element {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -765,11 +752,11 @@ max-width: 264px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-forma:focus {
+.input-element:focus {
   border: 1px solid #4d5ae5;
 }
 
-.icon-forma {
+.form-element-icon {
   fill: #2e2f42;
   position: absolute;
   left: 16px;
@@ -778,14 +765,14 @@ max-width: 264px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-forma:focus + .icon-forma {
+.input-element:focus + .form-element-icon {
   fill: #4d5ae5;
 }
 
-.client-coment {
+.comment-field-section {
   margin-bottom: 16px;
 }
-.coments {
+.comment-element {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -801,7 +788,7 @@ max-width: 264px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.coments::placeholder {
+.comment-element::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
@@ -809,16 +796,16 @@ max-width: 264px;
   color: rgba(46, 47, 66, 0.4);
 }
 
-.coments:focus {
+.comment-element:focus {
   border-color: #4d5ae5;
 }
 
-.user-privacy {
+.user-privacy-field-section {
   margin-bottom: 24px;
   flex-wrap: wrap;
 }
 
-.privaci-accept {
+.privacy-accept-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -840,18 +827,18 @@ max-width: 264px;
   margin-right: 8px;
 }
 
-.link-privacy-policy {
+.privacy-policy-link {
   color: #4d5ae5;
 }
 
-.checkbox:checked + .privaci-accept span {
+.checkbox:checked + .privacy-accept-label span {
   color: #4d5ae5;
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
 }
 
-.botton-modal-forma {
+.modal-send-button {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
