@@ -649,7 +649,7 @@ max-width: 264px;
 
 /* =====modal-window===== */
 
-.modalwindow {
+.modal-window {
   position: fixed;
   top: 0;
   left: 0;
@@ -687,7 +687,7 @@ max-width: 264px;
   padding: 72px 24px 24px 24px;
 }
 
-.modal-button {
+.close-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -706,17 +706,17 @@ max-width: 264px;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.close-button:hover,
+.close-button:focus {
   border: none;
   background-color: #404bbf;
   /* fill: #ffffff; */
 }
-.modal-button:hover .icon-modal {
+.close-button:hover .icon-modal {
   fill: #ffffff;
 }
 
-.modal-button:focus .icon-modal {
+.close-button:focus .icon-modal {
   fill: #ffffff;
 }
 
