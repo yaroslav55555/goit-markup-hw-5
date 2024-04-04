@@ -855,4 +855,5 @@ max-width: 264px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin: 0 auto;
+  
 }
