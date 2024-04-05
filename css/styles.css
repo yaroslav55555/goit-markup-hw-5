@@ -586,8 +586,8 @@ max-width: 264px;
   color: #fff;
   margin-bottom: 16px;
   /* new */
-  display: flex;
   justify-content: center;
+
 }
 
 .form-for-footer-input {
